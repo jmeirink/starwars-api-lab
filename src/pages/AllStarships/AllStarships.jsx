@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { getAllStarships } from "../../services/sw-api";
+import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
+import { getAllStarships } from "../../services/sw-api"
 
 const AllStarships = () => {
   const [allStarships, setAllStarships] = useState([])
