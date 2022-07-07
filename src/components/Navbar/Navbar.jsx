@@ -1,8 +1,8 @@
 function Navbar() {
   return(
     <>
-      <div className="navbar">
-        <h3>Starwars Starships</h3>
+      <div className="nav-banner">
+        <h3>STAR WARS STARSHIPS</h3>
       </div>
     </>
   )
