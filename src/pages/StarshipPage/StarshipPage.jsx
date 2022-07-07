@@ -20,8 +20,8 @@ const StarshipPage = () => {
     <>
       {starship.name ?
         <>
-          <h3>{starship.name}</h3>
-          <h3>{starship.model}</h3>
+          <h3>Name: {starship.name}</h3>
+          <h3>Model: {starship.model}</h3>
           <Link to="/">Return</Link>
         </>
       :

@@ -20,7 +20,7 @@ const AllStarships = () => {
         {allStarships.map(starship =>
           <div key={starship.name}>
             <Link to="/starships" state={{starship}}>{starship.name}</Link>
-            <br />
+            <br/>
           </div>
         )}
       </>
